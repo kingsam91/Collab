@@ -1,0 +1,73 @@
+@import url('animate.css');
+@import url('font-awesome.css');
+@import url('poppins.css');
+
+body {
+    font-family: 'poppinslight', ans-serif !important;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.my-item {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.my-quote .quote {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.my-quote .quote-primary a {
+    background-color: #428BCA;
+}
+
+.my-quote .quote a {
+    padding: 15px;
+    background: #1d2939;
+    color: #dadfe6;
+    display: block;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.my-quote .quote-author {
+    display: block;
+    font-family: 'poppinslight';
+    opacity: 0.5;
+}
+
+.my-details {
+    padding: 15px;
+}
+
+.my-quote .my-meta {
+    margin-top: 3px;
+}
+.my-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.my-meta li:first-child {
+    padding-left: 0;
+}
+
+.my-meta li {
+    float: left;
+    padding: 0 5px;
+    border-right: 1px solid #ddd;
+    line-height: normal;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+
